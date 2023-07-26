@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     @section('title')
-        COCÒ
+        COCÒ🌿
     @endsection
 
     <!-- Fonts -->
@@ -23,33 +23,45 @@
             <h1 class="display-2 text-center">
                 COCÒ
             </h1>
-            <h4 class="display-5 text-center">
+            <h1 class="display-5 text-center">
                 Velas aromáticas de cera de soja, ecológicas y sostenibles🌿
-            </h4>
+            </h1>
 
-            {{-- Carousel --}}
             <hr>
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="{{asset('img/velas1.jpg')}}" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="{{asset('img/velas2.jpg')}}"" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="{{asset('img/velas3.jpg')}}"" class="d-block w-100" alt="...">
-                  </div>
+            <h1 class="display-5 text-center">𝚑𝚊𝚗𝚍𝚖𝚊𝚍𝚎</h1>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">¿Quiénes somos?</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Descripcion sobre el emprendimiento</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="col">
+                    <div class="card bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">Usos/cuidados/beneficios</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Secondary card title</h4>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-secondary mb-3" style="max-width: 20rem;">
+                        <div class="card-header">Productos/servicios</div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Venta de velas de soja</li>
+                                <li>bandejas</li>
+                                <li>refill de envases.</li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
     @endsection
 </body>

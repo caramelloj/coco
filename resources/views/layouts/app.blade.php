@@ -10,21 +10,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Coco</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="/">COCÒ🕯️</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarColor01">
+          <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Home
-                  <span class="visually-hidden">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="{{route('show.products')}}">Productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -33,6 +28,7 @@
                 <a class="nav-link" href="#">About</a>
               </li>
             </ul>
+
           </div>
         </div>
       </nav>
@@ -42,7 +38,7 @@
 
 
 
-    <footer class="text-center text-lg-start bg-primary">
+    <footer class="text-center text-lg-start bg-light" data-bs-theme="light">
 
       <!-- Copyright -->
       <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
